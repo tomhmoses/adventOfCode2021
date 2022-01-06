@@ -1,0 +1,43 @@
+  0:      1:      2:      3:      4:
+ aaaa    ....    aaaa    aaaa    ....
+b    c  .    c  .    c  .    c  b    c
+b    c  .    c  .    c  .    c  b    c
+ ....    ....    dddd    dddd    dddd
+e    f  .    f  e    .  .    f  .    f
+e    f  .    f  e    .  .    f  .    f
+ gggg    ....    gggg    gggg    ....
+
+  5:      6:      7:      8:      9:
+ aaaa    aaaa    aaaa    aaaa    aaaa
+b    .  b    .  .    c  b    c  b    c
+b    .  b    .  .    c  b    c  b    c
+ dddd    dddd    ....    dddd    dddd
+.    f  e    f  .    f  e    f  .    f
+.    f  e    f  .    f  e    f  .    f
+ gggg    gggg    ....    gggg    gggg
+
+
+number of segments on:
+0: 6 ✅done
+1: 2 ✅l
+2: 5 ✅
+3: 5 ✅
+4: 4 ✅l
+5: 5 ✅
+6: 6 ✅done
+7: 3 ✅l
+8: 7 ✅l
+9: 6 ✅done
+
+
+6 must be the pattern that has 6 segments, and includes only 1 segment from 1
+
+9 must be the pattern that has 6 segments, and has all segments of 4
+
+0 is the remaining 6 segment patterns
+
+3 is the 5 segment pattern that has all segments of 1
+
+5 is the 5 segment pattern that has all segments of (4 without segments of 1)
+
+2 is the remaining 5 segment pattern
